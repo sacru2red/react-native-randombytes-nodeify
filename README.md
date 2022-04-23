@@ -22,8 +22,8 @@ var randomBytes = require('randombytes');
 ## Installation
 1. add package
 ```
-npm install react-native-randombytes-nodeify
-yarn add react-native-randombytes-nodeify
+npm install react-native-randombytes-nodeify react-native-randombytes
+yarn add react-native-randombytes-nodeify react-native-randombytes
 ```
 2. add a babel plugin
 ```js

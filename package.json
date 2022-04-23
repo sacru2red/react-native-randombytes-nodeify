@@ -1,6 +1,6 @@
 {
   "name": "react-native-randombytes-nodeify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "randombytes nodeify for react-native, react-native-randombytes wrapper",
   "repository": {
     "type": "git",
@@ -30,7 +30,7 @@
     "url": "https://github.com/sacru2red"
   },
   "license": "MIT",
-  "dependencies": {
+  "peerDependencies": {
     "react-native-randombytes": "^3.6.1"
   }
 }
