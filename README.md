@@ -42,6 +42,12 @@ module.exports = {
 };
 ```
 
+### Etc.
++ If you try importing 'randombytes' before installing this package, you should clear react-native cache
+```
+npm start -- --reset-cache
+```
+
 ## Usage
 
 ```js
