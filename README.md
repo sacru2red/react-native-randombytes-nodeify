@@ -68,7 +68,6 @@ var randomBytes = require('randombytes');
 const rand = randomBytes(4)
 
 // asynchronous API
-// uses iOS-side SecRandomCopyBytes
 randomBytes(4, (err, bytes) => {
   // bytes is a Buffer object(4 random bytes)
   console.log(bytes.toString('hex'))
