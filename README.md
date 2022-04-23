@@ -60,6 +60,8 @@ npm start -- --reset-cache
 ## Usage
 
 ```js
+// linking steps
+// "randombytes" => "react-native-randombytes-nodeify" => "react-native-randombytes"'s randomBytes
 var randomBytes = require('randombytes');
 
 // get 4 random bytes
