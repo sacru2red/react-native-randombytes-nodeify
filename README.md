@@ -22,10 +22,19 @@ var randomBytes = require('randombytes');
 ## Installation
 1. add package
 ```
-npm install react-native-randombytes-nodeify react-native-randombytes
-yarn add react-native-randombytes-nodeify react-native-randombytes
+npm install react-native-randombytes-nodeify
+// or
+yarn add react-native-randombytes-nodeify
 ```
-2. add a babel plugin
+2. install peerDependencies and babel-plugin
+```
+npm install react-native-randombytes
+npm install --save-dev babel-plugin-module-resolver
+// or
+yarn add react-native-randombytes
+yarn add --dev babel-plugin-module-resolver
+```
+3. add a babel plugin to babel.config.js
 ```js
 module.exports = {
   presets: ['module:metro-react-native-babel-preset'],
