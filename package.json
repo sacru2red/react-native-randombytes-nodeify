@@ -1,6 +1,6 @@
 {
   "name": "react-native-randombytes-nodeify",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "randombytes nodeify for react-native, react-native-randombytes wrapper",
   "repository": {
     "type": "git",
