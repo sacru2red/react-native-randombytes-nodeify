@@ -1,0 +1,36 @@
+{
+  "name": "react-native-randombytes-nodeify",
+  "version": "0.0.0",
+  "description": "randombytes nodeify for react-native, react-native-randombytes wrapper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sacru2red/react-native-randombytes-nodeify.git"
+  },
+  "homepage": "https://github.com/sacru2red/react-native-randombytes-nodeify",
+  "bugs": {
+    "url": "https://github.com/sacru2red/react-native-randombytes-nodeify/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "randomBytes",
+    "randombytes",
+    "rng",
+    "rn",
+    "nodeify",
+    "sjcl",
+    "browserify"
+  ],
+  "author": {
+    "name": "sacru2red",
+    "email": "sacru2red@gmail.com",
+    "url": "https://github.com/sacru2red"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "react-native-randombytes": "^3.6.1"
+  }
+}
